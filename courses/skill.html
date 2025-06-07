@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="app.css">
 </head>
 <body>
-    <h1>Register</h1>
-    <p>Please register to connect with us</p>
     <form action="">
+        <div class="container">
         <h1>Register</h1>
-        <p>Please fill the form to register withe us</p>
+        <p>Please fill the form to register with us</p>
 
+        <hr>
         <label for="fn"><b>First name</b></label>
         <input type="text" placeholder="first name" name="fn" id="fn" required>
 
@@ -20,6 +21,12 @@
 
         <label for="cpsw"><b>Confirm password</b></label>
         <input type="Password" placeholder="Confirm Password" name="cpsw" id="cpsw" required>
+
+        <hr/> 
+
+        <button class="registerbtn" type="Submit">Register</button>
+
+        </div>
     </form>
 </body>
 </html>
